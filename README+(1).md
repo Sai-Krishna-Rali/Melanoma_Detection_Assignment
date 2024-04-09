@@ -10,7 +10,7 @@
   - Model 2 - Using Modified Images
   - Model 3 - Using added training data and BatchNormalisation technique
   - Model 4 - without BatchNormalisation
-
+* Prediction
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
@@ -28,33 +28,29 @@ The data set contains the following diseases:
 - Vascular lesion
  
 ## Conclusions
-- Model 1 cnclusions
--   A notable variance exists between the training accuracy and validation accuracy, suggesting the model's inability to effectively generalize and predict unseen data.
-High training accuracy coupled with low validation accuracy signifies overfitting.
-Implementing dropouts can be a valuable strategy to address these issues and enhance model performance.
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+* Model 1 Conclusions
+  - A notable variance exists between the training accuracy and validation accuracy, suggesting the model's inability to effectively generalize and predict unseen data.
+  - High training accuracy coupled with low validation accuracy signifies overfitting.
+  - Implementing dropouts can be a valuable strategy to address these issues and enhance model performance.
+* Model 2 Conclusions
+  - A notable decrease in the disparity between training accuracy and validation accuracy suggests enhanced generalizability and indicates that overfitting has been mitigated.
+  - Despite this improvement, the overall accuracy remains relatively low, hovering around 50%, indicating the model's limited ability to accurately predict unseen data.
+  - The current situation appears to be indicative of underfitting. Implementing techniques such as batch normalization could be explored to address this issue and potentially improve the model's performance.
+* Model 3 Conclusions
+  - Observing the depicted graph, it's evident that the validation accuracy exhibits significant fluctuations across epochs, indicating instability within the model.
+  - Despite enhancements in training accuracy, the inconsistent behavior of validation accuracy renders the model less dependable.
+  - Considering these concerns, a decision is made to construct an alternative model architecture devoid of Batch Normalization layers.
+* Model 4 Conclusions
+  - Balancing the class distribution in the dataset can indeed contribute to improving the generalization and robustness of the model.
+  - The minimal difference in accuracies and consistently high values suggest that the model has learned to generalize well across both the training and validation datasets.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+As part of IIT Bangalore's AI/ML Executive Programme, I worked on this project.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by https://github.com/Sai-Krishna-Rali - feel free to contact me!
 
 
 <!-- Optional -->
